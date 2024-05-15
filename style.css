@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+@media (min-width:992px) {
+
+    #menu {
+        display: none;
+    }
+}
+
+@media(max-width:992px) {
+    #navbar {
+        display: none;
+    }
+}
+
+@media(max-width:400px) {
+    #sidebar {
+        width: 100%;
+    }
+}
+
+nav {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+#navbar-brand {
+    color: white;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    /* font-style: oblique ; */
+    font-size: 25px
+}
+
+#navigation {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item a {
+    color: white;
+    font-family: "Old Standard TT", serif;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    transition-duration: 0.5s;
+}
+
+.nav-item a:hover {
+    color: rgb(34, 172, 227);
+}
+
+#navigation a {
+    cursor: pointer;
+    justify-content: space-evenly;
+    /* color: white; */
+
+}
+
+header {
+    margin-top: 49px;
+}
+
+.intro {
+    font-family: "Dancing Script", cursive;
+    background: rgba(64, 64, 64, 0.7) url('/images/andrew-ruiz-fmz-B9At9iQ-unsplash.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 90vh;
+}
+
+.heading {
+    font-family: "Old Standard TT", serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+.card-body h4 {
+
+    font-family: "Jost", serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.card-body p {
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card-body {
+    transition-duration: 0.2s;
+}
+
+.card-body:hover {
+    background-color: black;
+    color: white;
+}
+
+#card-pad {
+    width: 20rem;
+}
+
+.view_more {
+    border: transparent;
+    width: 20%;
+    height: 3rem;
+    background-color: black;
+}
+
+.view_more a {
+    font-family: "Jost", serif;
+    font-size: 18px;
+}
+
+@media(max-width:480px) {
+    #about .row {
+        display: block;
+    }
+
+    #card-pad {
+        width: 100%;
+
+    }
+
+    .image img {
+        width: 100%;
+        height: 19rem;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1100px) {
+    #about .row {
+        display: block;
+    }
+
+    #card-pad {
+        width: 100%;
+
+    }
+
+    .image img {
+        width: 100%;
+        height: 13rem;
+    }
+}
+
+
+#gallery h1 {
+    color: rgb(7, 185, 255);
+    text-align: center;
+    font-family: "Jost", serif;
+}
+
+#gallery h5 {
+    text-align: center;
+    font-family: "Old Standard TT", serif;
+}
+
+#image-container {
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.image img {
+    height: 20rem;
+    margin-left: 10px;
+    transition-duration: 1s;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+}
+
+.advertise h2,
+.feedback h2 {
+    padding-top: 20px;
+    color: rgb(34, 172, 227);
+}
+
+.advertise p,
+.feedback p,
+#contact p {
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+}
+
+
+
+.advertise-content h4 {
+
+    font-family: "Jost", serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.advertise-content li {
+    margin-bottom: 7px;
+}
+
+.advertise-content a {
+
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    color: blueviolet;
+}
+
+.feel {
+    font-family: "Dancing Script", cursive;
+    background: rgba(131, 130, 130, 0.7) url('/images/ethan-robertson-SYx3UCHZJlo-unsplash.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 100vh;
+}
+
+.feedback {
+    background-color: #EAEAEA;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.feedback-carousel p {
+    font-family: "Old Standard TT", serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.feedback-carousel h6 {
+    font-family: "Jost", serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#contact-input {
+    border: transparent;
+    width: 100%;
+    height: 40px;
+}
+
+#contact-button {
+    border: aliceblue;
+    box-shadow: 0px 3px rgb(54, 54, 54);
+    border-radius: 3px;
+}
+
+
+#about {
+    margin-top: 100px;
+}
+
+#about h2 {
+    color: rgb(7, 185, 255);
+    font-family: "Jost", sans-serif;
+    font-size: large;
+    font-weight: 450;
+    font-size: 30px;
+}
+
+#about p {
+    word-spacing: 1px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#gallery {
+    margin-top: 100px;
+}
+
+#regions {
+    margin-top: 100px;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease, transform 0.5s ease;
+}
+
+#regions.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#regions ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    list-style: none;
+}
+
+.region {
+    border: transparent;
+    height: 40px;
+    width: 140px;
+    background: #fff;
+    color: #666;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+.regions {
+    margin-top: 100px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+#map {
+    height: 300px;
+    width: 95%;
+    border-radius: 15px;
+}
+
+.maps h2 {
+    color: rgb(34, 172, 227);
+}
+
+.footer {
+    background-color: #21252F;
+
+
+}
+
+.contact-text h5 {
+    font-family: "Old Standard TT", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(186, 185, 185);
+}
+
+.site-map h5 {
+    cursor: pointer;
+    color: white;
+    font-family: "Old Standard TT", serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 9px;
+    color: rgb(186, 185, 185);
+}
+
+
+.newsletter p {
+    font-family: "Old Standard TT", serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: rgb(186, 185, 185);
+}
+
+.newsletter button {
+    background-color: rgb(7, 185, 255);
+    color: black;
+    border: transparent;
+    width: 100px;
+    height: 30px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+}
+
+
+.newsletter input {
+    width: 220px;
+}
