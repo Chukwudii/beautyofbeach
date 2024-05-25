@@ -1,3 +1,4 @@
+// Region page
 window.onload = function () {
     // Get the slide-in element
     var region = document.getElementById("regions");
@@ -54,7 +55,9 @@ function west() {
     South.style.display = "none"
     West.style.display = "block"
 }
+// Regions page
 
+// Map section on homepage
 var map;
 
 function initMap() {
@@ -75,6 +78,8 @@ function initMap() {
         alert('Error getting current location: ' + error.message);
     });
 }
+// Map section on homepage
+
 
 function send(){
     const fname = document.getElementById("fname").value;

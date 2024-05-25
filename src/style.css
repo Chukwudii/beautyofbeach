@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* Navbar */
 @media (min-width:992px) {
 
     #menu {
@@ -58,6 +59,9 @@ nav {
 
 }
 
+/*End of Navbar section */
+
+/* Header section */
 header {
     margin-top: 49px;
 }
@@ -149,7 +153,12 @@ header {
         height: 13rem;
     }
 }
+/* End of header section */
 
+/* Gallery section */
+#gallery {
+    margin-top: 100px;
+}
 
 #gallery h1 {
     color: rgb(7, 185, 255);
@@ -176,7 +185,9 @@ header {
 .image img:hover {
     transform: scale(1.05);
 }
+/*End of gallery section */
 
+/* advertise section */
 .advertise h2,
 .feedback h2 {
     padding-top: 20px;
@@ -191,8 +202,6 @@ header {
     font-size: 18px;
     font-style: normal;
 }
-
-
 
 .advertise-content h4 {
 
@@ -214,17 +223,9 @@ header {
     font-size: 22px;
     color: blueviolet;
 }
+/* End of advertise section */
 
-.feel {
-    font-family: "Dancing Script", cursive;
-    background: rgba(131, 130, 130, 0.7) url('/images/ethan-robertson-SYx3UCHZJlo-unsplash.jpg');
-    background-size: cover;
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    height: 100vh;
-}
-
+/* Feedback section */
 .feedback {
     background-color: #EAEAEA;
     padding-bottom: 30px;
@@ -244,18 +245,20 @@ header {
     font-weight: 500;
     font-style: italic;
 }
+/* End of feedback section */
 
-#contact-input {
-    border: transparent;
-    width: 100%;
-    height: 40px;
+.feel {
+    font-family: "Dancing Script", cursive;
+    background: rgba(131, 130, 130, 0.7) url('/images/ethan-robertson-SYx3UCHZJlo-unsplash.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 100vh;
 }
 
-#contact-button {
-    border: aliceblue;
-    box-shadow: 0px 3px rgb(54, 54, 54);
-    border-radius: 3px;
-}
+
+
 
 
 #about {
@@ -278,10 +281,7 @@ header {
     font-size: 20px;
 }
 
-#gallery {
-    margin-top: 100px;
-}
-
+/* Region section */
 #regions {
     margin-top: 100px;
     opacity: 0;
@@ -320,7 +320,9 @@ header {
 .regions {
     margin-top: 100px;
 }
+/* End of region section */
 
+/* Map section */
 .map {
     display: flex;
     justify-content: center;
@@ -335,7 +337,9 @@ header {
 .maps h2 {
     color: rgb(34, 172, 227);
 }
+/* End of map section */
 
+/*Footer section */
 .footer {
     background-color: #21252F;
 
@@ -360,7 +364,6 @@ header {
     color: rgb(186, 185, 185);
 }
 
-
 .newsletter p {
     font-family: "Old Standard TT", serif;
     font-size: 17px;
@@ -383,3 +386,6 @@ header {
 .newsletter input {
     width: 220px;
 }
+
+
+/* End of footer section */
